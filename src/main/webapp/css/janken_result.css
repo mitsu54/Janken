@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body {
+	background-image:url("../道場.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+	text-align: center;
+	font-family:"ヒラギノ丸ゴ ProN W4"; 
+}
+
+h1 {
+	color: #1291dc;
+	font-size: 50px;
+	font-family:"メイリオ";
+	margin: 20px 15px;
+}
+
+h3 {
+	color:#ff8040;
+	font-size: 25px;	
+}
+
+h4 {
+	color:#48302f;
+	font-size: 20px;
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid blue;
+	padding: 10px;
+}
+
+p {
+	font-size: 20px;
+}
+
+#image_file {
+	height: 400px;
+	width: 400px;
+	margin-top: 20px;
+	border: solid 3px;
+	border-color: aqua;
+	border-radius: 10px;	
+}
+
+#label1 {
+	background-image:url("../グー.jpg");
+	background-size: 100%;
+	display: inline-block;
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	border: solid 3px;
+	border-color: aqua;
+	border-radius: 10px;
+}
+
+#label2 {
+	background-image:url("../チョキ.jpg");
+	background-color: white;
+	display: inline-block;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	border: solid 3px;
+	border-color: aqua;
+	border-radius: 10px;
+}
+
+#label3 {
+	background-image:url("../パー.jpg");
+	display: inline-block;
+	background-size: 100%;
+	height: 250px;
+	width: 250px;
+	margin: 20px;
+	border: solid 3px;
+	border-color: aqua;
+	border-radius: 10px;
+}
+
+#color {
+	background-color: rgba(255,255,255,0.7);
+	width: 900px;
+	margin: 0 auto;
+}
+
+.button2 {
+	font-size: 20px;
+	background-color: aqua;
+    border: 2px solid;
+    border-radius: 5px;
+    color: black;
+    margin: 50px auto;
+    padding: 5px;
+    display: inline-block;
+    width:300px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button2:checked {
+	background: #ffffff;
+	color: #ff0080; 
+}
+
+.button2:hover{
+	background-color: #E2EDF9;
+}
+
+#table {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#left {
+	color: #ff8040;
+	font-size: 30px;
+	font: bold;
+}
+
+#center {
+	display: inline-block;
+	vertical-align: middle;
+	color: gold;
+	font-size:100px;
+}
+
+#right {
+	color: green;
+	font-size: 30px;
+	font: bold;
+}
